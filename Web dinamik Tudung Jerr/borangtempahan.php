@@ -21,15 +21,15 @@ jC" crossorigin="anonymous">
     <h2>Hubungi Kami</h2>
   <form action="" class="row g-3">
     <div class="mb-3">
-      <label for="exampleFormControlInput1" class="form-label">Name</label>
-      <input type="text" class="form-control" id="#" placeholder="">
+      <label for="exampleFormControlInput1" class="form-label">Nama</label>
+      <input type="text" class="form-control" name="nama" id="inputName" placeholder="Mazidah binti Abdul Manaf">
     </div>
     <div class="mb-3">
     <label for="exampleFormControlInput1" class="form-label">Email</label>
-      <input type="text" class="form-control" id="#" placeholder="mazidahmam@gmail.com">
+      <input type="email" class="form-control" name="email" id="inputEmail4" placeholder="mazidahmam@gmail.com">
     </div>
-    <label for="exampleFormControlInput1" class="form-label">Address</label>
-      <input type="text" class="form-control" id="#" placeholder="">
+    <label for="exampleFormControlInput1" class="form-label">Alamat</label>
+      <input type="alamat" class="form-control" id="alamat" placeholder="Kampung Masjid Baru">
     <div class="col-12">
       <a class="btn btn-warning" href="mailto:mazidahmam@gmail.com">Sent</a>
     </div>

@@ -1,13 +1,15 @@
 <?php
 
-$servername = "localhost";
-$dBusername = "root";
-$dbpassword = "";
-$db_name = "tudungjerrdatabase";
+$servername = "localhost"; //hostname
+$dBusername = "root"; //database username
+$dBpassword = ""; //database password
+$db_name = "tudungjerrdatabase"; //nama database
 
+//create connection (Kaedah : MySQLi Procedural)
 $connection = mysqli_connect($servername, $dBusername, $dBpassword, $db_name);
 
-if(!$connection) {
-    die("Gagal berhubung; " . mysqli_connect_error());
-}
-echo"Berjaya berhubung <br> ";
+//mesej dirujukkan jika connection gagal
+     if(!$connection) {
+         die("Gagal berhubung; " . mysqli_connect_error());
+     }
+echo "Berjaya berhubung <br> ";
