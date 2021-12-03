@@ -13,7 +13,7 @@
     text-align: center;
 }
 
-.heading-sewa{
+.heading-tudung{
     color: #f9fc4cfb;
 }
 
@@ -71,11 +71,11 @@
 }
 
 
-/*footer*/
+footer/
 
 .footer{
     background-color: #656e77;
-    padding: 2%;
+    padding: 5%;
     text-align: center;
 }
 
